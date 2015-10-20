@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Redirigir Empresa</title>
+</head>
+<body>
+	<h1>Todas las Empresas</h1>
+	<ul>
+		{% for empresa in empresas %}
+			<li><b>Empresa: </b>{{empresa.nombre}}</li>
+			<li><b>Alumno: </b>{{empresa.alumno}}</li>
+			<li><b>Pais: </b>{{empresa.pais}}</li>
+			<li><b>Calificacion: </b>{{empresa.calificacion}}</li>
+			<li><b>Descripcion: </b>{{empresa.descripcion}}</li>
+			<br>
+
+
+
+
+
+
+
+		{% endfor %}
+	</ul>
+	
+		
+</body>
+</html>
+
+
